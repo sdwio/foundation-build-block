@@ -9,6 +9,6 @@ install directly from the repository e.g.
 `npm install https://github.com/sdwio/foundation-build-unit --save`
 
 #### Usage
-scss is required in `src/assets/scss` and subfolders
-bundles into `dist/css`
-start using npm script likeso `"start": "cd node_modules/foundation-build-unit && gulp"`
+scss is required in `src/styles/screen.scss` and subfolders of `src/styles/`
+bundles into `dist/styles`
+start using an npm script: `"start": "cd node_modules/foundation-build-unit && gulp"`

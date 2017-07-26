@@ -8,7 +8,7 @@ var sassPaths = [
 ];
 
 gulp.task('sass', function() {
-  return gulp.src('../../src/assets/scss/app.scss') // ../src/assets/scss/app.scss
+  return gulp.src('../../src/styles/screen.scss') // ../src/assets/scss/app.scss
     .pipe($.sass({
       includePaths: sassPaths,
       outputStyle: 'compressed' // if css compressed **file size**
@@ -17,9 +17,9 @@ gulp.task('sass', function() {
     .pipe($.autoprefixer({
       browsers: ['last 2 versions', 'ie >= 9']
     }))
-    .pipe(gulp.dest('../../dist/css'));
+    .pipe(gulp.dest('../../dist/styles'));
 });
 
 gulp.task('default', ['sass'], function() {
-  gulp.watch('../../src/assets/scss/**/*.scss', ['sass']); // **/*.scss
+  gulp.watch('../../src/styles/**/*.scss', ['sass']); // **/*.scss
 });

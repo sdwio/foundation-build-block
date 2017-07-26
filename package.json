@@ -1,6 +1,6 @@
 {
   "name": "foundation-build-unit",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Independent build unit for Foundation.",
   "main": "gulpfile.js",
   "scripts": {
