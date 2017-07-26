@@ -1,6 +1,6 @@
 {
-  "name": "foundation-sites-template",
-  "version": "1.0.0",
+  "name": "foundation-build-block",
+  "version": "0.1",
   "description": "Basic template for a new Foundation for Sites project.",
   "main": "gulpfile.js",
   "devDependencies": {
